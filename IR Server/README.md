@@ -35,7 +35,7 @@ deb http://mirror.arvancloud.ir/ubuntu bionic universe
 Personnally I changed the DNS and it works like a charm.</br></br>
 Now that you are up and running, let's get started.</br></br>
 ### 2. Install requirements </br> 
-#### 2-1. Install bbr both Servers </br>
+#### 2-1. Install bbr on the Server </br>
 ```shell script
 echo "net.ipv4.ip_forward = 1" | sudo tee /etc/sysctl.d/60-custom.conf
 echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.d/60-custom.conf
